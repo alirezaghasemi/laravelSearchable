@@ -1,0 +1,39 @@
+{
+    "name": "alirezaghasemi/laravel-searchable",
+    "description": "A Laravel package for adding search functionality to models.",
+    "type": "library",
+    "keywords": [
+        "laravel",
+        "search",
+        "searchable",
+        "dynamic_search",
+        "model_search",
+        "relation_search",
+        "relational_search",
+        "automatically_search"
+    ],
+    "homepage": "https://github.com/alirezaghasemi/laravelSearchable",
+    "autoload": {
+        "psr-4": {
+            "AlirezaGhasemi\\LaravelSearch\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ali Reza Ghasemi",
+            "email": "ghasemial@yahoo.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "*",
+        "illuminate/database": "*"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/alirezaghasemi/laravelSearchable.git"
+        }
+    ],
+    "license": "MIT"
+}
