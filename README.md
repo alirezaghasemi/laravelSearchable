@@ -18,7 +18,7 @@ use AlirezaGhasemi\LaravelSearch\Searchable;
 class User extends Model {
 
   use Searchable ;
-  protected $searchable = ['name', 'mobile', 'posts.title','posts.comment.title'];
+  protected $searchable = ['name', 'mobile', 'posts.title','posts.comments.title'];
   
   public function posts(){
     return $this->hasMany(Post::class);
