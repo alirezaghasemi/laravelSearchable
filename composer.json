@@ -35,5 +35,6 @@
             "url": "https://github.com/alirezaghasemi/laravelSearchable.git"
         }
     ],
-    "license": "MIT"
+    "license": "MIT",
+    "version": "1.0.0"
 }
